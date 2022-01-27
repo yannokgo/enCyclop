@@ -6,7 +6,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt 
 
 ### Fedora
 ```bash
-  sudo dnf update -y && sudo dnf upgrade -y && sudo dnf autoremove -y && sudo dnf clean all && sudo dnf autoclean all
+  sudo dnf update -y && sudo dnf upgrade -y && sudo dnf autoremove -y && sudo dnf clean all && sudo dnf autoremove
 ```
 
 # Scripting
