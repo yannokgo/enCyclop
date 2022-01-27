@@ -1,7 +1,12 @@
 # Update & Upgrade
-
+### Ubuntu
 ```bash
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt clean -y && sudo apt autoclean -y
+```
+
+### Fedora
+```bash
+  sudo dnf update -y && sudo dnf upgrade -y && sudo dnf autoremove -y && sudo apt clean && sudo apt autoclean
 ```
 
 # Scripting
